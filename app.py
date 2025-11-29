@@ -29,7 +29,7 @@ def buscar_cnpj_banco(cnpj_input):
             host="localhost",
             dbname="Dados_RFB",
             user="postgres",
-            password="Danceofdays123!"
+            password=""
         )
         cur = conn.cursor()
 
