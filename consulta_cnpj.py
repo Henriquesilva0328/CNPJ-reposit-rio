@@ -6,9 +6,9 @@ def buscar_cnpj(cnpj_input):
     # Conexão com o Postgres
     conn = psycopg2.connect(
         host="localhost",
-        dbname="Dados_RF13.B",
+        dbname="Dados_RFB",
         user="postgres",
-        password=""
+        password="D@nceofdays1!"
     )
     cur = conn.cursor()
 
