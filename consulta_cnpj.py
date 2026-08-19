@@ -8,7 +8,7 @@ def buscar_cnpj(cnpj_input):
         host="localhost",
         dbname="Dados_RFB",
         user="postgres",
-        password="D@nceofdays1!"
+        password=os.getenv("DB_PASSWORD")
     )
     cur = conn.cursor()
 

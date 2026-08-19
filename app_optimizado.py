@@ -30,7 +30,7 @@ class ConnectionPoolManager:
                         host="localhost",
                         dbname="Dados_RFB",
                         user="postgres",
-                        password="D@nceofdays1!"
+                        password=os.getenv("DB_PASSWORD")
                     )
         return cls._pool
     
